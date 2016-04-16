@@ -1,0 +1,19 @@
+.main-nav {
+  align-items: center;
+    height: 100px;
+    display: flex;
+    justify-content:center;
+    background-color: lightgrey;
+}
+
+.name {
+    background-color: lightblue;
+    border-radius: 10px;
+    width: 100px;
+    margin: 10px;
+}
+
+ul li {
+  text-align: center;
+
+}
