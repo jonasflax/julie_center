@@ -3,30 +3,20 @@
 }
 
 body {
-	padding-left: 5%;
-	padding-right: 5%;
-}
-
-.main-nav {
-    height: 75px;
-    display: flex;
-    justify-content: space-around;
-		align-items:: center;
-    /*background-color: lightgrey;*/
-		border: 1px solid black;
-}
-
-.name {
-		border: 1px solid black;
-    width: 100px;
-    margin: 15px;
-    text-decoration: none;
+	padding: 2.5%;
+	border: 1px solid black;
 }
 
 header {
-	margin: auto;
+	margin: 0 auto;
 	text-align: center;
+	/*max-height: 200px;*/
 	border-bottom: 3px solid black;
+}
+
+nav li {
+	list-style: none;
+	text-align: center;
 }
 
 ul li {
@@ -44,7 +34,24 @@ h1 {
 }
 
 img {
+	margin: auto;
 	border: 1px solid black;
 	width: 300px;
-	height: 225;
+	height: 225px;
+}
+
+div img {
+	height: 75px;
+	width: 75px;
+	margin: 5%;
+}
+
+main {
+	margin-top: 3%;
+}
+
+section {
+	margin: 0 auto;
+	margin-right: 0;
+
 }

@@ -23,3 +23,58 @@ body {
 	background: #3db5da;
 	border-radius: 3px;
 }*/
+
+/*.main-flex {
+	display: flex;
+	flex-direction: column;
+
+}*/
+
+.head-flex {
+	display: flex;
+	flex-direction: column;
+	/*align-items: center;*/
+}
+
+.contact-info-top {
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid black;
+}
+
+.ti {
+}
+
+.nhead {
+	display: flex;
+}
+
+.main-nav {
+    display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+    /*justify-content: space-around;*/
+		/*align-items:: center;*/
+		border: 1px solid black;
+}
+
+.name {
+		border: 1px solid black;
+    width: 100px;
+    margin: 15px;
+    text-decoration: none;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border: 1px solid black;
+}
+
+.item {
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+	margin: 25px;
+}
