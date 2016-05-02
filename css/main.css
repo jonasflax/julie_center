@@ -2,11 +2,11 @@
 	box-sizing: border-box;
 }
 
-body {
-	padding: 2.5%;
-	border-bottom: : 1px solid black;
+a {
+	text-decoration: none;
+	color: #16A2D7;
+	font-size: 20px;
 }
-
 
 img {
 	/*margin: auto;*/
@@ -19,8 +19,7 @@ h1 {
 
 }
 
-a {
-	text-decoration: none;
-	color: #16A2D7;
-	font-size: 20px;
+body {
+	padding: 2%;
+	border-bottom: : 1px solid black;
 }
