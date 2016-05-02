@@ -1,80 +1,43 @@
-/** {
-	box-sizing: border-box;
-}
-body {
-	font-size: 1.35em;
-	font-family: 'Varela Round', sans-serif;
-	color: #fff;
-	background: #e8e9e9;
-	padding-left: 5%;
-	padding-right: 5%;
-}
-.container {
-	padding: 10px;
-	background: #fff;
-  border-radius: 5px;
-	margin: 45px auto;
-  box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
-}
-.item {
-	color: #fff;
-	padding: 15px;
-	margin: 5px;
-	background: #3db5da;
-	border-radius: 3px;
-}*/
 
-/*.main-flex {
+
+.body {
 	display: flex;
-	flex-direction: column;
-
-}*/
-
-.head-flex {
-	display: flex;
-	flex-direction: column;
-	/*align-items: center;*/
+	/*align-content: center;*/
 }
 
-.contact-info-top {
-	display: flex;
-	justify-content: space-between;
-	border: 1px solid black;
-}
 
-.ti {
-}
-
-.nhead {
-	display: flex;
-}
-
-.main-nav {
+.sidebar {
     display: flex;
 		flex-direction: column;
-		justify-content: space-around;
-    /*justify-content: space-around;*/
-		/*align-items:: center;*/
-		border: 1px solid black;
+		justify-content: space-between;
+		height: 750px;
+		max-width: 300px;
+		border-right: 1px solid black;
+		/*background-color: lightgrey;*/
+		padding: 25px;
 }
 
-.name {
-		border: 1px solid black;
-    width: 100px;
-    margin: 15px;
-    text-decoration: none;
+/*.sidebar_section {
+
+}*/
+
+.sidebar_item {
+	cursor: pointer;
+	padding: 15px 10px;
+	list-style: none;
 }
 
-.container {
+.sidebar_item.is-side-bar-item-selected {
+	background-color: #EEF3F5;
+	border-radius: 4px;
+}
+
+
+.main {
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	border: 1px solid black;
+	align-content: center;
 }
 
-.item {
-	border: 1px solid black;
-	width: 200px;
-	height: 200px;
-	margin: 25px;
+.header {
+	align-items: center;
 }
