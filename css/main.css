@@ -4,13 +4,15 @@
 
 a {
 	text-decoration: none;
-	color: #16A2D7;
-	font-size: 20px;
+	color: grey;
+	font-size: 18px;
+	font-family: sans-serif;
+	font-weight: bold;
 }
 
 img {
-	/*margin: auto;*/
-	border: 1px solid black;
+/*border: 1px solid lightgrey;
+	border-radius: 10px;*/
 	width: 250px;
 	height: 150px;
 }
@@ -20,6 +22,11 @@ h1 {
 }
 
 body {
-	padding: 2%;
+	margin: 0;
+	padding: 1%;
 	border-bottom: : 1px solid black;
+}
+
+nav {
+	border: 1px solid lightgrey;
 }
