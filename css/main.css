@@ -8,11 +8,10 @@ a {
 	font-size: 18px;
 	font-family: sans-serif;
 	font-weight: bold;
+	margin-left: 10px;
 }
 
 img {
-/*border: 1px solid lightgrey;
-	border-radius: 10px;*/
 	width: 250px;
 	height: 150px;
 }
@@ -29,4 +28,34 @@ body {
 
 nav {
 	border: 1px solid lightgrey;
+}
+
+.locale {
+	border: 2px solid grey;
+	height: 450px;
+	width: 450px;
+	border-radius: 450px;
+	overflow: hidden;
+}
+
+.locale:hover {
+	border: 6px solid grey;
+}
+
+.locale img{
+		height: 450px;
+		width: 450px;
+		/*-webkit-transition: all 1s ease;
+	     -moz-transition: all 1s ease;
+	       -o-transition: all 1s ease;
+	      -ms-transition: all 1s ease;*/
+	          transition: all .5s ease;
+}
+
+.locale img:hover{
+	height: 750px;
+	width: 750px;
+	margin-top: -155px;
+	margin-left: -250px;
+	
 }

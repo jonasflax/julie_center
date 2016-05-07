@@ -22,15 +22,19 @@
 }
 
 .sidebar_item {
-	/*cursor: pointer;*/
 	padding: 12px 10px;
 	list-style: none;
 }
 
-.sidebar_item.is-side-bar-item-selected {
+.sidebar_item:hover {
 	background-color: lightgrey;
 	border-radius: 5px;
 }
+
+/*.sidebar_item.is-side-bar-item-selected {
+	background-color: lightgrey;
+	border-radius: 5px;
+}*/
 
 
 
@@ -38,6 +42,7 @@
 
 .main {
 	flex-direction: column;
+	justify-content: space-around;
 	align-items: center;
 	border: 1px solid lightgrey;
 	margin-left: 24px;
@@ -56,6 +61,14 @@
 	border-bottom: 1px solid black;
 }
 
+.map {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
 .centeredPrompt__item + .centeredPrompt__item {
 	margin-top: 5px;
 }
@@ -69,6 +82,7 @@
 		color: #86969C;
 		font-size: 30px;
 		font-weight: 700;
+		font-family: sans-serif;
 		text-align: center;
 	}
 
@@ -81,11 +95,4 @@
 
 .icon {
 color: #BCD2DA;
-}
-
-.locale {
-	margin-top: 50px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
 }
