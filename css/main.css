@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 }
 
-a {
+.sidebar_item a {
 	text-decoration: none;
 	color: grey;
 	font-size: 18px;
@@ -11,13 +11,13 @@ a {
 	margin-left: 10px;
 }
 
+a:hover {
+	color: white;
+}
+
 img {
 	width: 250px;
 	height: 150px;
-}
-
-h1 {
-
 }
 
 body {
@@ -57,5 +57,5 @@ nav {
 	width: 750px;
 	margin-top: -155px;
 	margin-left: -250px;
-	
+
 }

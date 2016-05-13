@@ -31,6 +31,11 @@
 	border-radius: 5px;
 }
 
+.sidebar_item:active {
+	background-color: lightgrey;
+	border-radius: 5px;
+}
+
 /*.sidebar_item.is-side-bar-item-selected {
 	background-color: lightgrey;
 	border-radius: 5px;
@@ -62,7 +67,7 @@
 }
 
 .map {
-	margin-top: 50px;
+	margin-top: 25px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
