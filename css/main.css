@@ -2,6 +2,24 @@
 	box-sizing: border-box;
 }
 
+body {
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px solid black;
+}
+
+img {
+	width: 250px;
+	height: 150px;
+}
+
+
+nav {
+	height: 768px;
+	max-width: 300px;
+	border-right: 4px solid lightgrey;
+}
+
 .sidebar_item a {
 	text-decoration: none;
 	color: grey;
@@ -11,24 +29,17 @@
 	margin-left: 10px;
 }
 
-a:hover {
+/*a:hover {
 	color: white;
-}
+}*/
 
-img {
-	width: 250px;
+.indIcon {
 	height: 150px;
+	width: 150px;
+	border: 1px solid grey;
+	border-radius: 50%;
 }
 
-body {
-	margin: 0;
-	padding: 1%;
-	border-bottom: : 1px solid black;
-}
-
-nav {
-	border: 1px solid lightgrey;
-}
 
 .locale {
 	border: 2px solid grey;
