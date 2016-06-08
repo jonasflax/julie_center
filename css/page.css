@@ -75,7 +75,7 @@
 }
 
 .titleBar {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   justify-content: space-between;
   min-height: 221.667px;
@@ -91,7 +91,7 @@
 		font-weight: lighter;
 		/*font-family: sans-serif;*/
 		text-align: center;
-		margin-top: 64px;
+		margin-top: 72px;
 	}
 
 .boxesLayout {

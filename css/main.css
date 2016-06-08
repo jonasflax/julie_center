@@ -57,3 +57,9 @@ p {
 	font-weight: lighter;
 	margin-left: 10px;
 }
+
+
+#gmap_canvas {
+	height: 240px;
+	width: 240px;
+}
