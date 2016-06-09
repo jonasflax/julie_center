@@ -205,7 +205,7 @@
 
 .container {
 	display: flex;
-	flex-wrap: wrap;
+	flex-direction: column;
 	height: 255px;
 	justify-content: space-around;
 	border: 1px solid lightgrey;
