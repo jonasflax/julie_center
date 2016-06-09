@@ -6,15 +6,15 @@ body {
 	margin: 0;
 	padding: 0 5%;
 	/*border-bottom: 1px solid black;*/
-	border-left: 72px solid lightgrey;
-	border-right: 72px solid lightgrey;
-	border-top: 36px solid lightgrey;
+	border-left: 36px solid lightgrey;
+	border-right: 36px solid lightgrey;
+	border-top: 18px solid lightgrey;
 }
 
 h1 {
 	text-align: center;
 	text-decoration: underline;
-	font-size: 20px;
+	font-size: 18px;
 	font-family: sans-serif;
 	font-family: 'Raleway', sans-serif;
 	margin: 0 0 10px 0;
@@ -57,7 +57,7 @@ p {
 	text-decoration: none;
 	text-transform: uppercase;
 	/*color: grey;*/
-	font-size: 16px;
+	font-size: 14px;
 	font-family: sans-serif;
 	font-weight: bold;
 	margin-left: 10px;
@@ -68,7 +68,7 @@ p {
 	text-decoration: none;
 	text-transform: uppercase;
 	/*color: grey;*/
-	font-size: 16px;
+	font-size: 14px;
 	font-family: sans-serif;
 	margin-left: 10px;
 	font-family: 'Raleway', sans-serif;
@@ -78,14 +78,13 @@ p {
 	text-decoration: none;
 	text-transform: uppercase;
 	/*color: grey;*/
-	font-size: 16px;
+	font-size: 14px;
 	font-family: sans-serif;
 	margin-left: 10px;
 	font-family: 'Raleway', sans-serif;
 }
 
 
-/*#gmap_canvas {
-	height: 275px;
-	width: 240px;
-}*/
+#gmap_canvas {
+	border: 1px solid black;
+}
