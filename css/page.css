@@ -1,10 +1,16 @@
 .body {
 	display: flex;
-	flex-flow: nowrap;
+	flex-flow: row wrap;
 	/*align-content: stretch;*/
-	justify-content: center;
+	justify-content: space-between;
 }
 
+#banner {
+	/*display: flex;*/
+	width: 100%;
+	height: 42px;
+	background-color: gray;
+}
 
 .sidebar {
 	/*border-right: 1px solid black;*/
@@ -12,13 +18,14 @@
 	flex-direction: column;
 	justify-content: space-between;
 	min-width: 240px;
+	padding-left: 6%;
 }
 
 .sidebar_image {
 	width: 225px;
 	height: 125px;
-	margin: 24px 0 72px 8px;
-	padding-top: 48px;
+	margin: 24px 0 16px 8px;
+	/*padding-top: 48px;*/
 }
 
 .sidebar_image img  {
@@ -32,7 +39,7 @@
 	padding: 16px 10px;
 	list-style: none;
 	/*text-align: right;*/
-	/*background-color: #ccffff;*/
+	background-color: lightgray;
 }
 
 .sidebar_item {
@@ -67,11 +74,12 @@
 }
 
 
-
 .main {
 	display: flex;
+	flex: 2 0px;
 	flex-direction: column;
-	width: 100%;
+	padding-right: 6%;
+	/*width: 100%;*/
 }
 
 
@@ -79,8 +87,8 @@
   display: inline-flex;
   flex-direction: column;
   justify-content: flex-end;
-  min-height: 221.667px;
-	max-height: 221.667px;
+  min-height: 165.667px;
+	max-height: 165.667px;
 	border-bottom: 1px solid black;
 	padding: 0 0 6px 0;
 }
@@ -92,7 +100,7 @@
 		font-weight: lighter;
 		text-align: center;
 		font-family: 'Raleway', sans-serif;
-		margin-bottom: 36px;
+		margin-bottom: 42px;
 	}
 
 	/*.tBar {
@@ -121,15 +129,22 @@
 .boxesLayout {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	/*justify-content: space-between;*/
 	margin: 0 0 0 50px;
+}
+
+.boxRow {
+	display: flex;
+	flex: row wrap;
+	justify-content: space-between;
+	width: 100%;
 }
 
 .boxContent {
 	height: 255px;
 	width: 255px;
 	border: 1px solid lightgrey;
-	margin: 50px 0 0 0;
+	margin: 55px 0 0 0;
 	padding: 16px;
 	/*border-bottom: 1px solid lightgrey;*/
 	/*border-top: 1px solid lightgrey;*/
@@ -139,15 +154,16 @@
 	height: 255px;
 	width: 255px;
 	border: 1px solid black;
-	margin: 50px 0 0 0;
+	margin: 55px 0 0 0;
 	background-color:  #f2f2f2;
 }
 
 .boxImage img {
+	justify-content: center;
 	padding: 12px;
 	height: 255px;
 	width: 198px;
-	margin: 50px 0 0 0;
+	margin: 55px 0 0 0;
 	overflow: hidden;
 	/*border-radius: 10px;*/
 	-webkit-filter: blur(1px);
@@ -158,7 +174,7 @@
 .boxLong {
 	height: 105px;
   width: 100%;
-	margin: 52.5px 0 50px 0;
+	margin: 50px 0 50px 0;
 	padding: 8px;
 	border: 1px solid lightgrey;
 }
@@ -166,7 +182,7 @@
 .boxLong:hover {
 	height: 105px;
   width: 100%;
-	margin: 52.5px 0 50px 0;
+	margin: 50px 0 50px 0;
 	padding: 8px;
 	background-color: #f2f2f2;
 	border: 1px solid black;
