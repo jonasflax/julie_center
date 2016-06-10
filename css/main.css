@@ -14,7 +14,7 @@ h1 {
 	font-size: 18px;
 	font-family: sans-serif;
 	font-family: 'Raleway', sans-serif;
-	margin: 0 0 16px 0;
+	margin: 0 0 8px 0;
 }
 
 #banner h1 {
@@ -46,23 +46,10 @@ p {
 	font-size: 13px;
 	font-family: sans-serif;
 	font-weight: lighter;
-	line-height: 22px;
+	line-height: 20px;
 	font-family: 'Raleway', sans-serif;
 	margin: 0;
-
-}
-
-
-.item p {
-	text-align: center;
-	font-size: 13px;
-	font-family: sans-serif;
-	font-weight: lighter;
-	line-height: 22px;
-	font-family: 'Raleway', sans-serif;
-	/*margin: 0;*/
-	padding: 0 8px;
-
+	letter-spacing: .1em;
 }
 
 .sidebar_item_0 a {
@@ -75,34 +62,37 @@ p {
 	margin-left: 10px;
 	font-family: 'Raleway', sans-serif;
 	font-weight: bolder;
+	letter-spacing: .1em;
 }
 
 .sidebar_item a {
 	text-decoration: none;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	/*color: grey;*/
 	font-size: 14px;
 	font-family: sans-serif;
 	margin-left: 10px;
 	font-family: 'Raleway', sans-serif;
 	font-weight: bold;
+	letter-spacing: .25em;
 }
 
 .sidebar_item_1 a {
 	text-decoration: none;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	/*color: grey;*/
 	font-size: 14px;
 	font-family: sans-serif;
 	margin-left: 10px;
 	font-family: 'Raleway', sans-serif;
 	font-weight: bold;
+	letter-spacing: .25em;
 }
 
 map {
 	padding: 16px;
 	border: 1px solid lightgrey;
-	margin: 5% 0;
+	margin: 50px 0;
 }
 
 
