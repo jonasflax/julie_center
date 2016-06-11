@@ -2,7 +2,7 @@
 	display: flex;
 	flex-flow: row wrap;
 	/*align-content: stretch;*/
-	justify-content: space-between;
+	justify-content: center;
 }
 
 #banner {
@@ -17,8 +17,9 @@
   display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	width: 335px;
-	padding-left: 5%;
+	width: 275px;
+	/*padding-left: 5%;*/
+	margin-left: 50px;
 }
 
 .sidebar_image {
@@ -89,8 +90,8 @@
 	flex: 2 0px;
 	flex-direction: column;
 	/*justify-content: space-between;*/
-	padding-right: 5%;
-	padding-left: 50px
+	margin: 0 50px;
+	max-width: 768px;
 	/*width: 100%;*/
 }
 
@@ -101,6 +102,7 @@
   justify-content: flex-end;
   min-height: 175px;
 	max-height: 175px;
+	max-width: 768px;
 	border-bottom: 1px solid lightgray;
 	padding: 0;
 	margin-bottom: 50px;
@@ -116,14 +118,10 @@
 		margin-bottom: 42px;
 	}
 
-	/*.tBar {
-		display: flex;
-	}*/
-
 	.topItems {
 		display: flex;
 		justify-content: space-between;
-		margin: 0 50px 0 50px;
+		margin: 0;
 		padding: 0;
 		border-top: 1px solid lightgray;
 	}
@@ -137,7 +135,7 @@
 	font-family: sans-serif;
 	font-kerning: 1em;
 	padding: 8px ;
-	background-color: #f2f2f2;
+	/*background-color: #f2f2f2;*/
 }
 
 /*.tItem {
@@ -154,7 +152,7 @@
 .boxesLayout {
 	display: flex;
 	flex-wrap: wrap;
-	/*justify-content: space-between;*/
+	/*justify-content: flex-start;*/
 }
 
 .boxRow {
@@ -235,15 +233,10 @@
 
 .container {
 	display: flex;
-
 	flex-wrap: wrap;
-	height: 255px;
-	justify-content: space-around;
-	/*border: 1px solid lightgrey;*/
-	/*margin: 0 0 50px 0;*/
-	width: 100%;
-	align-content: space-between;
-	align-items: center;
+	border: 1px solid lightgrey;
+	padding: 25px;
+	max-width: 768px;
 }
 
 .item {
@@ -251,26 +244,25 @@
 	border: 1px solid lightgrey;
 	width: 200px;
 	height: 200px;
-	/*margin: 25px auto;*/
+	margin: 25px auto;
 	padding: 8px;
+?	/*margin: 50px 0;*/
 }
 
 div img {
 	height: 75px;
 	width: 75px;
-	/*margin: 0;*/
+
 }
 
-.bio a {
+/*.bio a {
 	font-size: 13px;
 	font-family: sans-serif;
 	font-weight: lighter;
 	line-height: 20px;
 	font-family: 'Raleway', sans-serif;
-	/*margin: 0;*/
-	/*padding: 0 8px;*/
 	letter-spacing: .1em;
-}
+}*/
 
 
 
@@ -278,10 +270,8 @@ div img {
 	border-top: 1px solid lightgray;
 	/*padding: 16px 0;*/
 	display: flex;
+
 	position: relative;
-	/*align-items: left;
-	margin-top: 72px;*/
-	/*background-color: #e6ffff;*/
 }
 
 .footItems {
