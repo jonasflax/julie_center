@@ -118,6 +118,15 @@
 		margin-bottom: 42px;
 	}
 
+	.titleBar_bottom {
+		display: flex;
+	  flex-direction: column;
+	  justify-content: space-between;
+		max-width: 768px;
+		padding: 0;
+		margin-bottom: 50px;
+	}
+
 	.topItems {
 		display: flex;
 		justify-content: space-between;
@@ -128,7 +137,6 @@
 
 .tItem {
 	list-style: none;
-	text-align: left;
 	/*color: grey;*/
 	font-size: 14px;
 	font-weight: lighter;
@@ -151,14 +159,14 @@
 
 .boxesLayout {
 	display: flex;
-	flex-wrap: wrap;
+	/*flex-wrap: wrap;*/
 	/*justify-content: flex-start;*/
 }
 
 .boxRow {
 	display: flex;
-	flex: row wrap;
-	justify-content: space-between;
+	flex-wrap: wrap;
+	justify-content: center;
 	width: 100%;
 	border-top: 50px;
 }
@@ -166,7 +174,8 @@
 .boxContent {
 	height: 254px;
 	width: 254px;
-	border: 1px solid lightgrey;
+	border-top: 1px solid lightgrey;
+	border-bottom: 1px solid lightgrey;
 	/*margin: 50px 0 0 0;*/
 	padding: 16px;
 }
@@ -174,16 +183,16 @@
 .boxContent:hover {
 	height: 254px;
 	width: 254px;
-	border: 1px solid black;
-	/*margin: 50px 0 0 0;*/
+	border-top: 1px solid lightgrey;
+	border-bottom: 1px solid lightgrey;	/*margin: 50px 0 0 0;*/
 	background-color:  #f2f2f2;
 }
 
 .boxImage {
 	height: 254px;
 	width: 254px;
-	border: 1px solid lightgrey;
-	/*margin: 50px 0 0 0;*/
+	border-top: 1px solid lightgrey;
+	border-bottom: 1px solid lightgrey;	/*margin: 50px 0 0 0;*/
 	padding: 16px;
 }
 
@@ -201,17 +210,18 @@
   width: 100%;
 	margin: 45px 0 50px 0;
 	padding: 8px;
-	border: 1px solid lightgrey;
+	border-top: 1px solid lightgrey;
+	border-bottom: 1px solid lightgrey;
 }
 
-.boxLong:hover {
+/*.boxLong:hover {
 	height: 105px;
   width: 100%;
 	margin: 45px 0 50px 0;
 	padding: 8px;
 	background-color: #f2f2f2;
 	border: 1px solid black;
-}
+}*/
 
 .vOpps {
 	/*margin-top: 24px;*/
@@ -255,40 +265,6 @@ div img {
 
 }
 
-/*.bio a {
-	font-size: 13px;
-	font-family: sans-serif;
-	font-weight: lighter;
-	line-height: 20px;
-	font-family: 'Raleway', sans-serif;
-	letter-spacing: .1em;
-}*/
-
-
-
-.fBar {
-	border-top: 1px solid lightgray;
-	/*padding: 16px 0;*/
-	display: flex;
-
-	position: relative;
-}
-
-.footItems {
-	display: flex;
-	width: 100%;
-	justify-content: space-around;
-	/*background-color: #e6ffff;*/
-}
-
-.bItem {
-	list-style: none;
-	text-align: left;
-	/*color: grey;*/
-	font-size: 14px;
-	font-weight: lighter;
-	font-family: sans-serif;
-}
 
 a:link {
     color: black;
@@ -296,4 +272,9 @@ a:link {
 
 a:visited {
 	color: black;
+}
+
+.listBox {
+	border-top: 1px solid Lightgray;
+	height: 50px;
 }
