@@ -20,7 +20,7 @@ h1 {
 	font-size: 18px;
 	font-family: sans-serif;
 	font-family: 'Varela Round', sans-serif;
-	margin: 12px 0;
+	margin: 16px 0;
 	/*color: white;*/
 }
 
@@ -50,6 +50,19 @@ h2 {
 
 p {
 	text-align: center;
+	font-size: 16px;
+	font-family: sans-serif;
+	font-weight: lighter;
+	line-height: 20px;
+	font-family: 'Varela Round', sans-serif;
+	font-weight: lighter;
+	margin: 0;
+	letter-spacing: .1em;
+	color: black;
+}
+
+.item p {
+	text-align: right;
 	font-size: 14px;
 	font-family: sans-serif;
 	font-weight: lighter;
