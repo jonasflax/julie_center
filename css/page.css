@@ -28,7 +28,7 @@
 	max-height: 950px;
 	/*background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);*/
   /*background: linear-gradient(lightblue, #fff, lightblue);*/
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 }
 
 .sidebar_image {
@@ -55,7 +55,7 @@
 
 .sidebar_item_0 {
 	height: 50px;
-	border-top: 1px solid  black;
+	/*border-top: 1px solid  black;*/
 	padding: 16px 10px;
 	list-style: none;
 	text-decoration: underline;
@@ -65,15 +65,15 @@
 
 .sidebar_item {
 	height: 50px;
-	border-top: 1px solid  black;
+	/*border-top: 1px solid  black;*/
 	padding: 16px 10px;
 	list-style: none;
 }
 
 .sidebar_item_1 {
 	height: 50px;
-	border-top: 1px solid  black;
-	border-bottom: 1px solid  black;
+	/*border-top: 1px solid  black;
+	border-bottom: 1px solid  black;*/
 	padding: 16px 10px;
 	list-style: none;
 }
@@ -107,11 +107,11 @@
 	flex-direction: column;
 	justify-content: flex-start;;
 	margin: 0 50px;
-  padding: 0 50px;
+  padding-right: 50px;
 	max-width: 900px;
 	max-height: 948px;
   min-width: 768px;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   /*background: linear-gradient(lightblue, #fff, lightblue);*/
 
 }
